@@ -1,8 +1,11 @@
-module go-shared-lib
+module github.com/wanchai23chai/go-shared-lib
 
 go 1.17
 
-require github.com/go-playground/validator/v10 v10.10.1
+require (
+	github.com/go-playground/validator/v10 v10.10.1
+	gorm.io/gorm v1.23.1
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
@@ -18,7 +21,6 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
-	gorm.io/gorm v1.23.1 // indirect
 )
 
 require (

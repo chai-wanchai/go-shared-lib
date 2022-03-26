@@ -2,10 +2,11 @@ package utils
 
 import (
 	"fmt"
-	"go-shared-lib/pkg/errmsg"
 	"math"
 	"strconv"
 	"strings"
+
+	"github.com/wanchai23chai/go-shared-lib/pkg/errmsg"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm"

@@ -3,15 +3,16 @@ package utils_test
 import (
 	"bytes"
 	"encoding/json"
-	"go-shared-lib/pkg/errmsg"
-	"go-shared-lib/pkg/meta"
-	"go-shared-lib/pkg/response"
-	"go-shared-lib/pkg/utils"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+
+	"github.com/wanchai23chai/go-shared-lib/pkg/errmsg"
+	"github.com/wanchai23chai/go-shared-lib/pkg/meta"
+	"github.com/wanchai23chai/go-shared-lib/pkg/response"
+	"github.com/wanchai23chai/go-shared-lib/pkg/utils"
 
 	. "github.com/franela/goblin"
 	"github.com/gofiber/fiber/v2"

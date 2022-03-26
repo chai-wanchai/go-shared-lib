@@ -2,8 +2,9 @@ package response
 
 import (
 	_ "fmt"
-	"go-shared-lib/pkg/meta"
 	"reflect"
+
+	"github.com/wanchai23chai/go-shared-lib/pkg/meta"
 
 	"github.com/gofiber/fiber/v2"
 )

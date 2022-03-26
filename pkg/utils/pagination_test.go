@@ -3,10 +3,6 @@ package utils_test
 import (
 	"encoding/json"
 	"fmt"
-	"go-shared-lib/pkg/errmsg"
-	"go-shared-lib/pkg/logger"
-	"go-shared-lib/pkg/response"
-	"go-shared-lib/pkg/utils"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
@@ -14,6 +10,11 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/wanchai23chai/go-shared-lib/pkg/errmsg"
+	"github.com/wanchai23chai/go-shared-lib/pkg/logger"
+	"github.com/wanchai23chai/go-shared-lib/pkg/response"
+	"github.com/wanchai23chai/go-shared-lib/pkg/utils"
 
 	. "github.com/franela/goblin"
 	"github.com/gofiber/fiber/v2"
