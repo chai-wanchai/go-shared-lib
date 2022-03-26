@@ -12,17 +12,10 @@ import (
 	. "github.com/franela/goblin"
 	"github.com/gofiber/fiber/v2"
 	"github.com/stretchr/testify/assert"
-<<<<<<< HEAD:src/utils/validator_test.go
-	"github.com/wanchai23chai/go-shared-lib/src/errmsg"
-	"github.com/wanchai23chai/go-shared-lib/src/meta"
-	"github.com/wanchai23chai/go-shared-lib/src/response"
-	"github.com/wanchai23chai/go-shared-lib/src/utils"
-=======
 	"github.com/wanchai23chai/go-shared-lib/errmsg"
 	"github.com/wanchai23chai/go-shared-lib/meta"
 	"github.com/wanchai23chai/go-shared-lib/response"
 	"github.com/wanchai23chai/go-shared-lib/utils"
->>>>>>> 32faf28 (update):utils/validator_test.go
 )
 
 func TestValidateBodyParser(t *testing.T) {

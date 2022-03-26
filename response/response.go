@@ -4,11 +4,7 @@ import (
 	_ "fmt"
 	"reflect"
 
-<<<<<<< HEAD:src/response/response.go
-	"github.com/wanchai23chai/go-shared-lib/src/meta"
-=======
 	"github.com/wanchai23chai/go-shared-lib/meta"
->>>>>>> 32faf28 (update):response/response.go
 
 	"github.com/gofiber/fiber/v2"
 )

@@ -1,10 +1,6 @@
 package errmsg
 
-<<<<<<< HEAD:src/errmsg/errmsg.go
-import "github.com/wanchai23chai/go-shared-lib/src/meta"
-=======
 import "github.com/wanchai23chai/go-shared-lib/meta"
->>>>>>> 32faf28 (update):errmsg/errmsg.go
 
 var (
 	ErrInvalid_Page_Format  = meta.ErrorBadRequest.SetHTTPCode(400).SetCode(1001).AppendMessage("page is invalid format, It should be number.")

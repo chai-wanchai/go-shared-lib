@@ -6,14 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-<<<<<<< HEAD:src/utils/validator.go
-=======
 	"github.com/wanchai23chai/go-shared-lib/errmsg"
 
->>>>>>> 32faf28 (update):utils/validator.go
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"
-	"github.com/wanchai23chai/go-shared-lib/src/errmsg"
 )
 
 func ValidateBodyParser(ctx *fiber.Ctx, out interface{}) error {
