@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/wanchai23chai/go-shared-lib/pkg/errmsg"
+	"github.com/wanchai23chai/go-shared-lib/errmsg"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"

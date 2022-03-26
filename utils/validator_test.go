@@ -9,14 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/wanchai23chai/go-shared-lib/pkg/errmsg"
-	"github.com/wanchai23chai/go-shared-lib/pkg/meta"
-	"github.com/wanchai23chai/go-shared-lib/pkg/response"
-	"github.com/wanchai23chai/go-shared-lib/pkg/utils"
-
 	. "github.com/franela/goblin"
 	"github.com/gofiber/fiber/v2"
 	"github.com/stretchr/testify/assert"
+	"github.com/wanchai23chai/go-shared-lib/errmsg"
+	"github.com/wanchai23chai/go-shared-lib/meta"
+	"github.com/wanchai23chai/go-shared-lib/response"
+	"github.com/wanchai23chai/go-shared-lib/utils"
 )
 
 func TestValidateBodyParser(t *testing.T) {

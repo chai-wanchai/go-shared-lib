@@ -11,14 +11,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/wanchai23chai/go-shared-lib/pkg/errmsg"
-	"github.com/wanchai23chai/go-shared-lib/pkg/logger"
-	"github.com/wanchai23chai/go-shared-lib/pkg/response"
-	"github.com/wanchai23chai/go-shared-lib/pkg/utils"
-
 	. "github.com/franela/goblin"
 	"github.com/gofiber/fiber/v2"
 	"github.com/stretchr/testify/assert"
+	"github.com/wanchai23chai/go-shared-lib/errmsg"
+	"github.com/wanchai23chai/go-shared-lib/logger"
+	"github.com/wanchai23chai/go-shared-lib/response"
+	"github.com/wanchai23chai/go-shared-lib/utils"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"gorm.io/driver/mysql"
