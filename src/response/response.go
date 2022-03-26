@@ -4,7 +4,7 @@ import (
 	_ "fmt"
 	"reflect"
 
-	"github.com/wanchai23chai/go-shared-lib/meta"
+	"github.com/wanchai23chai/go-shared-lib/src/meta"
 
 	"github.com/gofiber/fiber/v2"
 )

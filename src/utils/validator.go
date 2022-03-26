@@ -6,10 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/wanchai23chai/go-shared-lib/errmsg"
-
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"
+	"github.com/wanchai23chai/go-shared-lib/src/errmsg"
 )
 
 func ValidateBodyParser(ctx *fiber.Ctx, out interface{}) error {

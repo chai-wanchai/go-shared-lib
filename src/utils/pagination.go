@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wanchai23chai/go-shared-lib/errmsg"
+	"github.com/wanchai23chai/go-shared-lib/src/errmsg"
 
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm"
